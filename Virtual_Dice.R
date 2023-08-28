@@ -7,7 +7,7 @@ round(x)
 args(round)
 roll <- function(){
   die =1:6
-  dice <- sample(die,2)
+  dice <- sample(die,2,rplace=TRUE)
   sum(dice)
 }
 roll()
